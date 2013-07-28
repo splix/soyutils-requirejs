@@ -1,5 +1,4 @@
 define([], function() {
-    return function() {
         var userAgent = "";
         if ("undefined" !== typeof navigator && navigator
             && "string" == typeof navigator.userAgent) {
@@ -26,5 +25,4 @@ define([], function() {
              */
             WEBKIT: !isOpera && userAgent.indexOf('WebKit') != -1
         };
-    }
 });

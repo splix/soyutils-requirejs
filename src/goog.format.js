@@ -1,4 +1,4 @@
-define(['goog.userAgent.js'], function(goog_userAgent) {
+define(['goog.userAgent'], function(goog_userAgent) {
     var goog = {};
     goog.format = {
          insertWordBreaks: function (str, maxCharsBetweenWordBreaks) {
@@ -96,5 +96,5 @@ define(['goog.userAgent.js'], function(goog_userAgent) {
              ? '<wbr></wbr>' : goog_userAgent.OPERA ? '&shy;' : '<wbr>'
      };
 
-    return goog.format
+    return goog.format;
 });

@@ -290,5 +290,6 @@ define(['goog.soy', 'goog.inherits'], function(goog_soy, goog_inherits) {
      */
     soydata.VERY_UNSAFE.ordainSanitizedCss =
         soydata.$$makeSanitizedContentFactory_(soydata.SanitizedCss);
-    
+
+    return soydata;    
 });

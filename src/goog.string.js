@@ -1,4 +1,4 @@
-define(['goog.userAgent.js'], function(goog_userAgent) {
+define(['goog.userAgent'], function(goog_userAgent) {
 
     var goog = {};
 
@@ -141,4 +141,5 @@ define(['goog.userAgent.js'], function(goog_userAgent) {
         }
     };
 
+    return goog.string;
 });
